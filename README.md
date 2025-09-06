@@ -1,2 +1,2 @@
-welcom to finance app
+welcome to finance app
 
