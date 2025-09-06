@@ -1,2 +1,2 @@
-welcome to finance app Sep 2025
+welcome to finance app
 
