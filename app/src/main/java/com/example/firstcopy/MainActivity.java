@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
 
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Action when button is clicked
                 setContentView(R.layout.homepage);
+                TextView welcomeMessageTextView = findViewById(R.id.welcomeTextView);
+                welcomeMessageTextView.setText("Welcome to the Homepage!");
                 Button enter = findViewById(R.id.button2);
                 enter.setOnClickListener(new View.OnClickListener() {
                     @Override
