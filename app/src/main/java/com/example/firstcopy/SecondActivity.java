@@ -1,5 +1,5 @@
 package com.example.firstcopy;
-
+//news
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
